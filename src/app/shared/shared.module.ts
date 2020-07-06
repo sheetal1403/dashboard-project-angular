@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+import {MatListModule} from '@angular/material/list';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { HeaderComponent } from './components/header/header.component';
@@ -19,11 +22,15 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
   ],
   imports: [
     CommonModule,
+    RouterModule,
     MatDividerModule,
     MatToolbarModule,
     MatIconModule,
     MatMenuModule,
     MatButtonModule,
+    MatListModule,
+    MatCardModule,
+
     FlexLayoutModule
   ],
   exports: [
