@@ -14,6 +14,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // tslint:disable-next-line: typedef
   toggleSideBar(){
     this.toggleSideBarEvent.emit();
   }

@@ -14,6 +14,7 @@ export class DefaultComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // tslint:disable-next-line: typedef
   toggleSideBar(){
     this.sideBarOpen = !this.sideBarOpen;
   }
